@@ -17,3 +17,9 @@ class yourSceneHere(Scene):     # Must inherit from the 'Scene' class.
         # <++>, e.g.
         # self.add(my_mobject)
         # self.play(Transform(my_mobject, new_form)
+
+def main():
+    pass
+
+if __name__ == '__main__':
+    main()  
