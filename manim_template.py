@@ -12,6 +12,9 @@ class yourSceneHere(Scene):     # Must inherit from the 'Scene' class.
     def construct(self):        # Must have the construct() method in class.
         # Construct mobjects here
         # <++>
+        # NB: Any display math chars must be inline. \[ your+math+here \]
+        # CANNOT have the \[ or \] on their own lines, even inside raw str.
+
 
         # Animate them here
         # <++>, e.g.
